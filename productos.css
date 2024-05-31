@@ -11,6 +11,30 @@
 body {
   background-color: #080202;
   font-family: "Poppins", sans-serif;
+   body {
+            font-family: Arial, sans-serif;
+            
+        }
+        .category-list {
+            background-color: #080202;
+            padding: 10px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .category-list a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: red;
+        }
+        .category-list a:hover {
+            text-decoration: underline;
+          
+        }
+        .category {
+            padding: 20px;
+            margin: 20px 0;
+            border: 1px solid #ddd;
+        }
 }
 
 .container {
@@ -122,6 +146,11 @@ body {
   margin-top: 200px;
   padding-bottom: 50px;
 }
+
+#menu:checked ~ .navbar {
+  display: initial;
+}
+
 
 .slider {
   display: flex;
@@ -386,3 +415,4 @@ body {
     text-transform: uppercase; /* Convertir texto en mayúsculas */
     text-align: center;
 }
+
